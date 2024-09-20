@@ -15,13 +15,13 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "https://localhost:3000")
 @RestController
 @RequestMapping("/api/payments")
-class PaymentsController {
+public class PaymentController {
 
     private PaymentService paymentService;
     private PaymentRepository paymentRepository;
 
     @Autowired
-    public PaymentsController(PaymentService paymentService, PaymentRepository paymentRepository) {
+    public PaymentController(PaymentService paymentService, PaymentRepository paymentRepository) {
         this.paymentService = paymentService;
         this.paymentRepository = paymentRepository;
     }
