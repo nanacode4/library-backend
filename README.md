@@ -12,9 +12,6 @@ This is the backend service for the **Library Management System**, developed usi
   - [Messaging System](#messaging-system)
   - [Payment Management](#payment-management)
   - [Review System](#review-system)
-- [Credits](#credits)
-- [License](#license)
-
 ---
 
 ## 📝 Project Description
@@ -131,25 +128,3 @@ https://library-management-system.com/api/
 | **GET** | `/reviews/secure/user/book` | Check if a user has reviewed a book |
 
 **🔒 Authorization Required:** `User`
-
----
-
-## 👨‍💻 Credits
-
-- **Developers**: *Your Team Name*
-- **Tech Stack**: Java, Spring Boot, MySQL, Stripe API
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-> *Feel free to contribute by submitting issues, pull requests, and feature suggestions!*
-
----
-
-### 📌 Need any modifications? Let me know! 🚀
-```
