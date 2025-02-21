@@ -31,7 +31,7 @@ The **Library Backend** is the core of a full-stack application designed to faci
 All API requests should be prefixed with the base URL:
 
 ```
-https://library-system.com/api/
+https://library-system/api/
 ```
 
 ### 🔹 Admin Management
