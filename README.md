@@ -1,22 +1,8 @@
-# 📚 Library Management System - Backend
+# 📚 Library System - Backend
 
-This is the backend service for the **Library Management System**, developed using **Spring Boot**. It provides **RESTful APIs** for managing user authentication, book checkouts, payments, reviews, and messaging. This service interacts with a **MySQL database** for data storage and **Stripe** for handling payments.
+This is the backend service for the **Library System**, developed using **Spring Boot**. It provides **RESTful APIs** for managing user authentication, book checkouts, payments, reviews, and messaging. This service interacts with a **MySQL database** for data storage and **Stripe** for handling payments.
 
-## 📖 Table of Contents
-- [Project Description](#project-description)
-- [Technologies Used](#technologies-used)
-- [Installation and Running](#installation-and-running)
-- [API Usage](#api-usage)
-  - [Admin Management](#admin-management)
-  - [Book Management](#book-management)
-  - [Messaging System](#messaging-system)
-  - [Payment Management](#payment-management)
-  - [Review System](#review-system)
----
-
-## 📝 Project Description
-
-The **Library Management Backend** is the core of a full-stack application designed to facilitate online library operations. Users can **browse books, check out books, renew loans, return books, and leave reviews**. Admins can **manage books, approve messages, and oversee transactions**.
+The **Library Backend** is the core of a full-stack application designed to facilitate online library operations. Users can **browse books, check out books, renew loans, return books, and leave reviews**. Admins can **manage books, approve messages, and oversee transactions**.
 
 ### 🔑 Key Functionalities:
 - **🔐 User Authentication**: Secure login and user session management.
@@ -39,34 +25,13 @@ The **Library Management Backend** is the core of a full-stack application desig
 
 ---
 
-## 🚀 Installation and Running
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-repo/library-management-system.git
-   ```
-2. **Navigate to the project directory:**
-   ```sh
-   cd library-management-system
-   ```
-3. **Install dependencies:**
-   ```sh
-   mvn clean install
-   ```
-4. **Configure environment variables** (Database URL, Stripe API key, etc.).
-5. **Run the application:**
-   ```sh
-   mvn spring-boot:run
-   ```
-
----
 
 ## 🔌 API Usage
 
 All API requests should be prefixed with the base URL:
 
 ```
-https://library-management-system.com/api/
+https://library-system.com/api/
 ```
 
 ### 🔹 Admin Management
