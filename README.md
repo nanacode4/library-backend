@@ -7,12 +7,6 @@ The **Library Backend** is the core of a full-stack application designed to faci
 
 > The easiest way to run this backend is using Docker.
 
-### ✅ Prerequisites
-
-Make sure you have installed:
-
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ### ✅ Steps
 
@@ -26,6 +20,7 @@ cd springboot-library-backend
 
 # 3. Start the backend and MySQL services
 docker-compose up --build
+```
 
 ### 🔑 Key Functionalities:
 - **🔐 User Authentication**: Secure login and user session management.
