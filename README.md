@@ -3,8 +3,8 @@
 This is the backend service for the **Library System**, developed using **Spring Boot**. It provides **RESTful APIs** for managing user authentication, book checkouts, payments, reviews, and messaging. This service interacts with a **MySQL database** for data storage and **Stripe** for handling payments.
 
 The **Library Backend** is the core of a full-stack application designed to facilitate online library operations. Users can **browse books, check out books, renew loans, return books, and leave reviews**. Admins can **manage books, approve messages, and oversee transactions**.
-### 📦 Getting Started with Docker
 
+### 📦 Getting Started with Docker
 > The easiest way to run this backend is using Docker.
 
 1. Clone the repository
@@ -13,11 +13,11 @@ git clone https://github.com/your-username/springboot-library-backend.git
 cd springboot-library-backend
 ```
 
-# 2. Build the project (skip tests)
+ 2. Build the project (skip tests)
 ```bash
 ./mvnw clean package -DskipTests
 ```
-# 3. Start the backend and MySQL services
+#3. Start the backend and MySQL services
 ```bash
 docker-compose up --build
 ```
