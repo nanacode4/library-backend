@@ -111,3 +111,5 @@ https://library-system/api/
 | **GET** | `/reviews/secure/user/book` | Check if a user has reviewed a book |
 
 **🔒 Authorization Required:** `User`
+
+
